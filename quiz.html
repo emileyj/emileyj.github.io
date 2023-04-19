@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html lang= "en"> 
+<head> 
+<!--Emiley James-CSCE102-Section 014- 02/22/2023--> 
+	<meta charest= "utf-8"> 
+	<link rel= "stylesheet" href="styles.css"> 
+	<title> Project Part 1</title> 
+</head> 
+<body> 
+	<div id= "content"> 
+	<header> 
+		<h1> Emiley James </h1> 
+		</header> 
+	<nav id= "main-nav"> 
+		<ul> 
+			<li> <a href= "index.html"> Home </a></li>
+			<li> <a href= "quiz.html"> Quiz </a> </li>
+			<li> <a href= "contact.html"> Contact Me</a> </li>
+		</ul> 
+	</nav> 
+	<main> 
+	<br>
+	<img src= "images/cardiovascular.jpg" width-="1000" height= "300">  	<main> 
+	</main class= "container"> 
+		<section class= "quiz"> 
+		<h1> Webstie Development Quiz </h1> 
+		<label for= "question-1"> CSS Stands for? </label> 
+		<select id= "question-1"> 
+		<option> Hyper Text Meta Language </option> 
+		<option> Cascading Style Sheet </option> 
+		<option> Javascritpt </option>
+		<option> Computer Science </option> 
+		</select> 
+		<br> 
+		<br> 
+		<label for= "question-2"> What does display type do you use to show nothing? </label> 
+		<select id= "question-2"> 
+		<option> None </option> 
+		<option> Auto </option> 
+		<option> Flex </option> 
+		<option> Block </option> 
+		</select> 
+		<br> 
+		<br> 
+		<label for= "question-3"> What element stands for a piece of data in a table? </label> 
+		<select id= "question-3"> 
+		<option> h1 </option> 
+		<option> td </option> 
+		<option> tr </option> 
+		<option> p </option> 
+		</select> 
+		<br> 
+		<br> 
+		<label for= "question-4"> Is Javascript a case-senstitive language? </label> 
+		<select id= "question-4"> 
+			<option> Maybe </option> 
+			<option> Sometimes </option> 
+			<option> Yes </option> 
+			<option> No </option> 
+		</select> 
+		<br> 
+		<br> 
+		<button onclick= "showResult()"> Submit </button> 
+	</section> 
+	<section class= "results" > 
+	     <div class= "hidden"> 
+		<h1> Quiz Results </h1> 
+		<p id= "line1"> </p>
+		<p id= "line2"> </p> 
+		<p id= "line3"> </p> 
+		<p id= "line4"> </p> 
+		</div> 
+		</section> 
+		<footer> 
+	<p> &copy; Emiley </p> 
+	</footer> 
+	</div> 
+	<script src= "script.js"> </script> 
+	</body> 
+	</html> 
